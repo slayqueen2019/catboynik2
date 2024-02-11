@@ -1,0 +1,166 @@
+.header1 {
+font-size: 40px;
+color:blueviolet;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+}
+.text1 {
+    font-size: 20px;
+    color:rgb(179, 61, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.block2{
+    display:grid;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+}
+.block2 img{
+    margin: 10px auto 20px;
+   display: block;
+   height: 100%;
+   width:200px;
+   height: 200px;
+   transition: filter 0.3s ease;
+   filter: blur(5px);
+}
+
+.block2 img:hover{
+    filter: none;
+}
+.image {
+   margin: 10px auto 20px;
+   display: block;
+   height: 100%;
+   width:200px;
+   height: 200px;
+}
+.geeks{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.geeks span { 
+    animation: animate 3s linear infinite; 
+} 
+
+.geeks span:nth-child(1) { 
+    animation-delay: 0s; 
+} 
+
+.geeks span:nth-child(2) { 
+    animation-delay: 0.1s; 
+} 
+
+.geeks span:nth-child(3) { 
+    animation-delay: 0.2s; 
+} 
+
+.geeks span:nth-child(4) { 
+    animation-delay: 0.3s; 
+} 
+
+.geeks span:nth-child(5) { 
+    animation-delay: 0.4s; 
+} 
+
+.geeks span:nth-child(6) { 
+    animation-delay: 0.5s; 
+} 
+
+.geeks span:nth-child(7) { 
+    animation-delay: 0.6s; 
+} 
+
+.geeks span:nth-child(8) { 
+    animation-delay: 0.9s; 
+} 
+
+.geeks span:nth-child(9) { 
+    animation-delay: 0.8s; 
+} 
+
+
+@keyframes animate { 
+    0% { 
+        filter: blur(0); 
+    } 
+
+    40% { 
+        filter: blur(20px); 
+    } 
+
+    80% { 
+        filter: blur(0); 
+    } 
+
+    100% { 
+        filter: blur(0); 
+    } 
+} 
+
+.block1{
+    text-align: center;
+}
+.fora {
+    font-size: 30px;
+    text-align: center;
+    font-style:italic;
+    color: rgb(179, 61, 48);
+}
+.bg {
+    display: grid;
+    
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg, rgb(234, 211, 232) 0%, rgb(240, 174, 230) 25%, rgb(195, 219, 255) 51%, #ffdeb0 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+            animation: AnimateBG 20s ease infinite;
+  }
+.classybutton {
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(179, 61, 48);
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 20px;
+}
+.classybutton:hover{
+    background-color: #e6b073;
+}
+.classybutton:active{
+    background-color: rebeccapurple;
+}
+.output {
+    font-size: 20px;
+    color:rgb(179, 61, 48);
+    font-family:Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@-webkit-keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
